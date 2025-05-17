@@ -1,0 +1,77 @@
+/* AddTrustedMember.css */
+
+.trusted-member-container {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 3rem auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .trusted-member-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .trusted-member-container p.description {
+    text-align: center;
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  
+  .trusted-member-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .trusted-member-form input {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s;
+  }
+  
+  .trusted-member-form input:focus {
+    outline: none;
+    border: 1px solid #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+  }
+  
+  .trusted-member-form button {
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .trusted-member-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .status-message {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .transaction-details {
+    margin-top: 1.5rem;
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    color: #2c3e50;
+  }
+  

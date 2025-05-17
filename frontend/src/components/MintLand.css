@@ -1,0 +1,80 @@
+/* MintLand.css */
+
+.mint-land-container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .mint-land-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    text-align: center;
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  
+  .mint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .mint-form label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .mint-form input {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+  }
+  
+  .mint-form input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 6px rgba(52, 152, 219, 0.4);
+  }
+  
+  .mint-form button {
+    padding: 12px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .mint-form button:hover {
+    background-color: #27ae60;
+  }
+  
+  .success-msg {
+    margin-top: 1rem;
+    text-align: center;
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .error-msg {
+    margin-top: 1rem;
+    text-align: center;
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
